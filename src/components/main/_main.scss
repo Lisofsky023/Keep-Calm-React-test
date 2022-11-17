@@ -1,0 +1,78 @@
+@import "../fonts";
+
+body {
+  font-family: "OrchideaPro", sans-serif;
+}
+
+.main {
+
+  &__wrapper {
+    max-width: 1920px;
+    padding: 200px 0px 160px;
+  }
+
+  &__container {
+    max-width: 1588px;
+  }
+
+  &__title {
+    text-transform: uppercase;
+    margin: 0 auto 123px auto;
+    text-align: center;
+    font-size: 48px;
+    line-height: 62px;
+  }
+
+  &__section {
+    margin-bottom: 100px;
+  }
+
+  &__card {
+    display: flex;
+    align-items: center;
+
+    &--two {
+      justify-content: flex-start;
+      flex-direction: row-reverse;
+    }
+    &-img {
+      &--one {
+        max-width: 860px;
+        height: auto;
+        margin-right: 128px;
+      }
+      &--two {
+        max-width: 599px;
+        margin-left: 124px;
+      }
+    }
+
+    &-description {
+      max-width: 600px;
+    }
+
+    &-subtitle {
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 52px;
+      margin-bottom: 25px;
+    }
+
+    &-text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 23px;
+    }
+  }
+}
+
+.swiper {
+  margin-bottom: 160px;
+
+  &__title {
+    text-transform: uppercase;
+    margin: 0 auto 123px auto;
+    font-size: 48px;
+    line-height: 62px;
+  }
+}
