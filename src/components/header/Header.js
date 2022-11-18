@@ -4,8 +4,10 @@ import Contact from './Contact';
 export function Header() {
     return(
         <header className="header">
-            <Logo />
-            <Contact />
+            <div className="header__container">
+                <Logo />
+                <Contact />
+            </div>
         </header>
     )
 }

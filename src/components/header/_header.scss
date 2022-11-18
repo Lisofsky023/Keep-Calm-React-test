@@ -1,9 +1,17 @@
 .header {
-    padding: 37px 0px 31px;
+    width: 100%;
+    position: fixed;
+    padding: 37px 31px;
     background: linear-gradient(0deg, #464341 0%, #010101 100%);
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    z-index: 100;
+
+    &__container {
+        width: 76%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
         &__logo-img {
             width: 213px;
